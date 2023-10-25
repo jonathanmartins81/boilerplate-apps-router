@@ -9,7 +9,7 @@ describe('<Main />', () => {
 
     // busca o elemento e verifica a existência dele
     expect(
-      screen.getByRole('heading', { name: /react avançado aqua9/i })
+      screen.getByRole('heading', { name: /react avançado/i })
     ).toBeInTheDocument()
 
     // gerar snapshot
